@@ -37,6 +37,20 @@ requires ollama api and running deepseek-r1 models on hardware with GPU for powe
 
 https://ollama.com/library/deepseek-r1
 
+### edit in index.js 
+```
+const response = await axios.post(
+            "https://api.mel-on.tech/api/chat",
+            {
+                model: "deepseek-r1:1.5b", // Model yang digunakan
+                messages: conversationHistory[userId], // Kirim riwayat percakapan
+            },
+            {
+                responseType: "stream", // Tangani respons streaming
+            }
+        );
+```
+
 ---
 
 ## reference
