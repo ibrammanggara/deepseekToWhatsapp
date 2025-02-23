@@ -11,3 +11,8 @@ sudo apt install -y libatk1.0-0 libnss3 libx11-xcb1 libxcomposite1 libxcursor1 l
 ```
 npm i
 ```
+---
+## run command
+```
+node index.js
+```
