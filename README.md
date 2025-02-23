@@ -56,5 +56,3 @@ https://www.youtube.com/watch?v=HVQlrlqchI0
 https://github.com/danielcarneirotech/deepseek-whatsapp-bot
 
 thanks
-
---
