@@ -9,6 +9,11 @@
 sudo apt update
 sudo apt install -y libatk1.0-0 libnss3 libx11-xcb1 libxcomposite1 libxcursor1 libxdamage1 libxi6 libxtst6 libxrandr2 libasound2 libatk-bridge2.0-0 libgtk-3-0 libgbm1
 ```
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 23
+```
 
 ---
 
