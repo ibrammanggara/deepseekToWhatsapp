@@ -38,7 +38,9 @@ https://ollama.com/library/deepseek-r1
 
 --
 
-reference = https://www.youtube.com/watch?v=HVQlrlqchI0
+## reference
+https://www.youtube.com/watch?v=HVQlrlqchI0
+https://github.com/danielcarneirotech/deepseek-whatsapp-bot
 thanks
 
 --
