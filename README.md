@@ -34,13 +34,16 @@ node index.js
 ---
 
 requires ollama api and running deepseek-r1 models on hardware with GPU for powerful ai commands
+
 https://ollama.com/library/deepseek-r1
 
 --
 
 ## reference
 https://www.youtube.com/watch?v=HVQlrlqchI0
+
 https://github.com/danielcarneirotech/deepseek-whatsapp-bot
+
 thanks
 
 --
