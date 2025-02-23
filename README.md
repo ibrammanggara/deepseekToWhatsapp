@@ -11,7 +11,9 @@ sudo apt install -y libatk1.0-0 libnss3 libx11-xcb1 libxcomposite1 libxcursor1 l
 ```
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
 \. "$HOME/.nvm/nvm.sh"
+
 nvm install 23
 ```
 
