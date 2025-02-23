@@ -37,14 +37,14 @@ node index.js
 
 ---
 
-requires ollama api and running deepseek-r1 models on hardware with GPU for powerful ai commands
+requires ollama api and running deepseek-r1 models
 
 https://ollama.com/library/deepseek-r1
 
 ### edit in index.js 
 ```
 const response = await axios.post(
-            "https://api.mel-on.tech/api/chat", // edit this url api
+            "http://localhost:11434/api/chat", // edit this url api
             {
                 model: "deepseek-r1:1.5b",
                 messages: conversationHistory[userId],
