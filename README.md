@@ -16,7 +16,6 @@ sudo apt install -y libatk1.0-0 libnss3 libx11-xcb1 libxcomposite1 libxcursor1 l
 
 ```
 npm i
-
 ```
 
 ---
@@ -24,9 +23,7 @@ npm i
 ## run command
 
 ```
-
 node index.js
-
 ```
 
 # Note
@@ -40,7 +37,7 @@ https://ollama.com/library/deepseek-r1
 ### edit in index.js 
 ```
 const response = await axios.post(
-            "https://api.mel-on.tech/api/chat",
+            "https://api.mel-on.tech/api/chat", # edit this api
             {
                 model: "deepseek-r1:1.5b", // Model yang digunakan
                 messages: conversationHistory[userId], // Kirim riwayat percakapan
