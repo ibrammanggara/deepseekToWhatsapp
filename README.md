@@ -37,13 +37,13 @@ https://ollama.com/library/deepseek-r1
 ### edit in index.js 
 ```
 const response = await axios.post(
-            "https://api.mel-on.tech/api/chat", # edit this api
+            "https://api.mel-on.tech/api/chat", // edit this url api
             {
-                model: "deepseek-r1:1.5b", // Model yang digunakan
-                messages: conversationHistory[userId], // Kirim riwayat percakapan
+                model: "deepseek-r1:1.5b",
+                messages: conversationHistory[userId],
             },
             {
-                responseType: "stream", // Tangani respons streaming
+                responseType: "stream",
             }
         );
 ```
