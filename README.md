@@ -37,7 +37,7 @@ requires ollama api and running deepseek-r1 models on hardware with GPU for powe
 
 https://ollama.com/library/deepseek-r1
 
---
+---
 
 ## reference
 https://www.youtube.com/watch?v=HVQlrlqchI0
